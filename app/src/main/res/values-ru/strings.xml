@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search_hint">Поиск заметок</string>
+    <string name="note_title">Введите заголовок</string>
+    <string name="note_subtitle">Введите подзаголовок</string>
+    <string name="type_note_here">Введите заметку...</string>
+    <string name="empty_title_hint">Заголовок не может быть пустым!</string>
+    <string name="empty_note_hint">Содержание заметки не может быть пустым!</string>
+    <string name="miscellaneous">Разное</string>
+    <string name="pick_color">Выберите цвет</string>
+    <string name="add_image">Добавить изображение</string>
+    <string name="permission_denied">В доступе отказано!</string>
+    <string name="add_url">Добавить ссылку</string>
+    <string name="enter_url">Введите ссылку</string>
+    <string name="add_dialog">ДОБАВИТЬ</string>
+    <string name="cancel_dialog">ОТМЕНИТЬ</string>
+    <string name="enter_valid_url">Введите действительную ссылку</string>
+    <string name="delete_note">Удалить заметку</string>
+    <string name="delete">УДАЛИТЬ</string>
+    <string name="delete_message">Вы уверены, что хотите удалить эту заметку?</string>
+    <string name="listening">Слушаем...</string>
+    <string name="listening_error">Возникла ошибка при распознавании.</string>
+    <string name="notification_channel_description">Уведомления Test Notes</string>
+    <string name="set_notification">Установить уведомление</string>
+    <string name="set">УСТАНОВИТЬ</string>
+    <string name="notify_on">Уведомить:</string>
+</resources>

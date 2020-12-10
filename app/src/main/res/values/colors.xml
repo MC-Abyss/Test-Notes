@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color">#f5f5f5</color>
+    <color name="accent">#00695c</color>
+    <color name="dark_icon_color">#494949</color>
+    <color name="light_icon_color">@color/primary_color</color>
+    <color name="text_color">#000000</color>
+    <color name="light_text_color">@color/primary_color</color>
+    <color name="note_item_color">@color/primary_color</color>
+    <color name="text_hint_color">#494949</color>
+    <color name="light_text_hint_color">#bdbdbd</color>
+    <color name="default_note_color">@color/accent</color>
+    <color name="note_color2">#6a1b9a</color>
+    <color name="note_color3">#1565c0</color>
+    <color name="note_color4">#2e7d32</color>
+    <color name="note_color5">#ad1457</color>
+    <color name="misc_background_color">#00695c</color>
+    <color name="delete_color">#FF4842</color>
+    <color name="edit_background_color">#aeaeae</color>
+    <color name="quick_action_background_color">#00695c</color>
+</resources>
