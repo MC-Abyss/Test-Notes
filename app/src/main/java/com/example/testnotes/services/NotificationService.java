@@ -46,16 +46,6 @@ public class NotificationService extends JobIntentService {
         }
         if(intentType.equals("RebootNotificationReceiver")) {
             Repository repository = Repository.getInstance(getApplication());
-            /*Note log_note = new Note();
-            log_note.setId(JOB_ID);
-            log_note.setTitle("LOG NOTE");
-            log_note.setNoteText("LOG NOTE TEST");
-            log_note.setColor("#FFFF0000");
-            log_note.setDateTime(
-                    new SimpleDateFormat("dd.MM.yyyy HH:mm", Locale.getDefault())
-                            .format(new Date())
-            );
-            repository.insertNote(log_note);*/
             ArrayList<Note> notes = new ArrayList<>(repository.getAllNotes());
             for (Note note : notes) {
                 if(note.getNotificationDateTime() != null) {
@@ -66,7 +56,7 @@ public class NotificationService extends JobIntentService {
                     try {
                         notificationDate = smp.parse(note.getNotificationDateTime());
                     } catch (Exception e) {
-                        Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT);
+                        Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
                     }
                     long delay = notificationDate.getTime();
 
