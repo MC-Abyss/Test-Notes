@@ -39,7 +39,6 @@ public class NotificationService extends JobIntentService {
 
     @Override
     protected void onHandleWork(@NonNull Intent intent) {
-        //Log.d("BOOT", "BOOT RECEIVED WORK GOT");
         String intentType = intent.getExtras().getString("caller");
         if(intentType == null) {
             return;

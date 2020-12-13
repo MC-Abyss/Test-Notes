@@ -24,4 +24,5 @@
     <string name="set_notification">Установить уведомление</string>
     <string name="set">УСТАНОВИТЬ</string>
     <string name="notify_on">Уведомить:</string>
+    <string name="voice_note">Голосовая заметка</string>
 </resources>

@@ -19,10 +19,11 @@
     <string name="delete">DELETE</string>
     <string name="delete_message">Are you sure you want to delete this note?</string>
     <string name="listening">Listening...</string>
-    <string name="listening_error">An error occured while recognising.</string>
+    <string name="listening_error">An error occurred while recognising.</string>
     <string name="notification_channel_name" translatable="false">Test Notes</string>
     <string name="notification_channel_description">Test Notes Notifications</string>
     <string name="set_notification">Set notification</string>
     <string name="set">SET</string>
     <string name="notify_on">Notify on:</string>
+    <string name="voice_note">Voice note</string>
 </resources>

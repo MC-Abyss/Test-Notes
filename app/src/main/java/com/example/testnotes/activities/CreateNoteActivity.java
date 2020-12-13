@@ -190,6 +190,7 @@ public class CreateNoteActivity extends AppCompatActivity {
                         layoutMisc.findViewById(R.id.layoutAddURL).performClick();
                         break;
                     case "voice":
+                        editNoteTitle.setText(R.string.voice_note);
                         imageVoiceInput.performClick();
                 }
             }
@@ -744,6 +745,9 @@ public class CreateNoteActivity extends AppCompatActivity {
             }
 
             final EditText editURL = view.findViewById(R.id.editURL);
+            if(!textURL.getText().equals("")){
+                editURL.setText(textURL.getText().toString());
+            }
             editURL.requestFocus();
 
             view.findViewById(R.id.textViewAddURLButton).setOnClickListener(new View.OnClickListener() {

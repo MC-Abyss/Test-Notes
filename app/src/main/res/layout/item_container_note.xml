@@ -26,16 +26,17 @@
         android:includeFontPadding="false"
         android:textColor="@color/note_item_color"
         android:textSize="@dimen/_13ssp"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:maxLines="3"
+        android:ellipsize="end"/>
 
     <TextView
         android:id="@+id/textViewNoteText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/_8sdp"
-        android:layout_marginTop="@dimen/_4sdp"
+        android:layout_marginTop="@dimen/_6sdp"
         android:layout_marginRight="@dimen/_8sdp"
-        android:layout_marginBottom="@dimen/_4sdp"
         android:includeFontPadding="false"
         android:textColor="@color/note_item_color"
         android:textSize="@dimen/_11ssp"
@@ -49,17 +50,20 @@
         android:layout_marginLeft="@dimen/_8sdp"
         android:layout_marginTop="@dimen/_4sdp"
         android:layout_marginRight="@dimen/_8sdp"
-        android:layout_marginBottom="@dimen/_4sdp"
-        android:includeFontPadding="false"
         android:autoLink="web"
+        android:ellipsize="end"
+        android:includeFontPadding="false"
+        android:maxLines="1"
         android:textColor="@color/note_item_color"
-        android:textSize="@dimen/_11ssp"/>
+        android:textColorLink="@color/link_color"
+        android:textSize="@dimen/_11ssp" />
 
     <TextView
         android:id="@+id/textViewDateTimeNote"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_4sdp"
         android:layout_marginBottom="@dimen/_8sdp"
         android:layout_marginRight="@dimen/_8sdp"
         android:includeFontPadding="false"

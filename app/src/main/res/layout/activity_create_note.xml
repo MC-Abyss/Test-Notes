@@ -177,7 +177,10 @@
                     android:layout_weight="1"
                     android:autoLink="web"
                     android:includeFontPadding="false"
-                    android:textSize="@dimen/_13ssp" />
+                    android:textSize="@dimen/_13ssp"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    app:layout_constraintLeft_toLeftOf="parent"/>
 
                 <ImageView
                     android:id="@+id/imageDeleteURL"
